@@ -17,7 +17,7 @@
   <img src=
   "../~rinde/veebiprogrammeerimine2018s/tlu_terra_600x400_1.jpg" alt="TLÜ Terra õppehoone">
 
-  <p> Mul on sõber, kes ka teeb veebi. <a href= "../../~darikre"</a> </p>
+  <p> Mul on sõber, kes ka teeb <a href= "../../~darikre"target="_blank">veebi</a> </p>
   
 </body>
 </html>	
