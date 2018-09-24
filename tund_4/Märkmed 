@@ -1,0 +1,44 @@
+24.09
+tunnid eraldi folderitesse (page ja index) 
+NB! tund 3 ja 4 on copy paste - proovi ise teha!
+
+täna õpime kuidas saab teha häkkimiskindlaks page.php-s midagi valideerimisega
+
+https://www.w3schools.com/php/php_form_validation.asp <-- LOE KODUS!
+The HTML code of the form looks like this:
+action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+
+Validate Form Data With PHP
+
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;  #annab nö puhastatud sisend tagasi 
+};         <-- eemaldatakse kõik erimärgid mida sellises
+sisendis olla ei tohiks ja võivad osutuda hoopis koodiks.
+Selleks, et ei peaks iga lahtri jaoks erladi sisestama sellist asja on mõeldud välja funktsioon.Kutsume funktsiooni välja..
+
+eesnimi          >>
+perekonnanimi    >>kontrolli neid korraga
+
+funktsiooni väljakutsumine: $name = test_input($_POST["firstName"]);  (test_input)
+
+saame errori- sest name ja surnam eon globaalsed muutujad, aga funktsiooni sees ei tööta, sest seal on need lokaalsed
+Selle parandamiseks:$GLOBALS["name". " " . $GLOBALS["surName"];
+globaalsed ja sisemuutujad e scoop - millises mahus saadakse info kätte
+
+addmsg.php loomine <-- et saaks kasutaja midagi sisestada ja SALVESTADA (anonüümselt)
+
+<textarea 
+isset -funktsioon mis kontrollib kas midagi on seatud
+?Mis on <br>? =enter lehe peal
+?milleks {}
+
+
+
+http://greeny.cs.tlu.ee/phpMyAdmin
+username: if18
+password:ifikas18
+
+vpamsg3
