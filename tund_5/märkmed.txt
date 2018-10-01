@@ -1,0 +1,24 @@
+Fetch while <- pm loop kuni mingi tingimus on täidetud, seda on vaja et nt kiisude tabelist
+kõik andmed kätte saada.
+
+<hr> horisontal ruler
+<a href="" > Lingi tegemine
+
+Soov
+<input type="radio" - ringikujuline valikbox kus üks valik välistab teised
+nt:
+<input type="radio" name ="gender" value="2" <label>Naine</label><br>
+<input type="radio" name ="gender" value="1" <label>Mees</label><br>
+
+."\n"; -phps uus rida
+
+
+value="<?php echo $name; ?> - ei pea uuesti sisestama kui veateade mingis lahtris.
+
+intval-integer value - selleks et tekstis olevaid numbreid arvuliseksväärtuseks teha
+
+hash e räsi - paroolide krüpteerimine (x-sümbolite jada tekitatakse paroolist)
+samuti saab kasutada funktsiooni - salting e soolamine
+
+[] - massiiv
+"cost" => 12, parooli räsimise aeg
